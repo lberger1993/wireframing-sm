@@ -1,0 +1,52 @@
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .sidebar-nav .navbar .inner {
+      color:#6F6F6F !important;
+  }
+  
+}
+.sidebar-nav{
+  font-family: 'Open Sans', sans-serif;
+}
+.sidebar-nav .navbar{
+  padding-top:20%;
+}
+.sidebar-nav a {
+  color: #6F6F6F;
+}
+
+h2{
+  font-size:18px;
+  color:#6F6F6F;
+  padding-top:40px;
+}
+..axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
